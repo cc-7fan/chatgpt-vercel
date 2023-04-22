@@ -210,7 +210,7 @@ export default function SettingAction() {
       </Switch>
       <div class="flex items-center justify-between">
         <div class="flex">
-          <ActionItem
+          {/* <ActionItem
             onClick={() => {
               setActionState("showSetting", k =>
                 k !== "global" ? "global" : "none"
@@ -218,7 +218,7 @@ export default function SettingAction() {
             }}
             icon="i-carbon:settings"
             label="全局设置"
-          />
+          /> */}
           <ActionItem
             onClick={() => {
               setActionState("showSetting", k =>
