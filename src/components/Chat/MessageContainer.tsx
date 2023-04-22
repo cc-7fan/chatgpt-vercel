@@ -104,9 +104,7 @@ export default function ({
               >
                 {store.remainingToken}
               </span>
-              {`)/$${(store.contextToken$ + store.inputContentToken$).toFixed(
-                4
-              )}`}
+              {`)`}
             </span>
           </Show>
           <hr class="flex-1  border-slate/30" />
