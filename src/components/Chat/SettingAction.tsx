@@ -60,7 +60,7 @@ export default function SettingAction() {
       }}
     >
       <Switch>
-        <Match when={actionState.showSetting === "global"}>
+        {/* <Match when={actionState.showSetting === "global"}>
           <div class="<sm:max-h-10em max-h-14em overflow-y-auto">
             <SettingItem icon="i-ri:lock-password-line" label="网站访问密码">
               <input
@@ -104,7 +104,7 @@ export default function SettingAction() {
             </SettingItem>
           </div>
           <hr class="my-1 bg-slate-5 bg-op-15 border-none h-1px"></hr>
-        </Match>
+        </Match> */}
         <Match when={actionState.showSetting === "session"}>
           <div class="<sm:max-h-10em max-h-14em overflow-y-auto">
             <Show when={store.sessionId !== "index"}>
@@ -126,7 +126,7 @@ export default function SettingAction() {
                 />
               </SettingItem>
             </Show>
-            <SettingItem
+            {/* <SettingItem
               icon="i-carbon:machine-learning-model"
               label="OpenAI 模型"
             >
@@ -155,7 +155,7 @@ export default function SettingAction() {
                   }
                 ]}
               />
-            </SettingItem>
+            </SettingItem> */}
             <SettingItem icon="i-carbon:data-enrichment" label="思维发散程度">
               <div class="flex items-center justify-between w-150px">
                 <input
