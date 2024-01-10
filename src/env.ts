@@ -30,7 +30,7 @@ export const defaultEnv = {
     "gpt-4-32k": 32 * 1024
   } as Record<Model, number>,
   OPENAI_API_BASE_URL: "oneapi.xty.app",
-  OPENAI_API_KEY: "",
+  OPENAI_API_KEY: "sk-t5OdgeTxCxKO5cdmE4E6DfAbFe39425d82Bf9c0207B305B3",
   TIMEOUT: 30000,
   PASSWORD: "",
   SEND_KEY: "",
